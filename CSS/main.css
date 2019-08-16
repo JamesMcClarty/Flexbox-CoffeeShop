@@ -1,0 +1,56 @@
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.containter{
+    max-width: 100%;
+}
+
+header{
+    border-style: double;
+    border-color: beige;
+    text-align: center;
+    background-color: brown;
+    font-size: 200%;
+    color:white;
+}
+
+html{
+    background-image: url("Images/lucas-papini-leblanc-final-01.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+
+.infoDiv{
+    text-align: center;
+    background-color: mintcream;
+    border:3px dotted brown; 
+    color: black;
+}
+
+.shop{
+    border: 3px solid white;
+    text-align: center;
+    background-image: url("Images/coffebeans.jpg");
+    background-size: 100%;
+    margin: 25px;
+    color: white;
+    padding: 20px;
+    
+}
+
+.sojiroimage{
+    display: block;
+    float: left;
+    max-width: 25%;
+    max-height: 25%;
+    padding-right: 0%
+}
+
+ul{
+    padding: 5px;
+}
